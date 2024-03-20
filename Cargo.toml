@@ -1,6 +1,6 @@
 [package]
 name = "universal-sierra-compiler-cairo-lang-starknet-proxy"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2021"
 readme = "README.md"
 description = "A wrapper on cairo-lang-starknet crate set on version 1.0.0-rc0 for universal-sierra-compiler."

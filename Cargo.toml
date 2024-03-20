@@ -7,5 +7,14 @@ description = "A wrapper on cairo-lang-starknet crate set on version 1.0.0-rc0 f
 license = "MIT"
 
 [dependencies]
-cairo-lang-syntax = "=1.0.0-rc0"   # fixing a version of cairo-lang-starknet dependency
 cairo-lang-starknet = "=1.0.0-rc0"
+# fixing versions of other necessary cairo-lang-... dependencies
+cairo-lang-syntax = "=1.0.0-rc0"
+cairo-lang-casm = "=1.0.0-rc0"
+cairo-lang-diagnostics = "=1.0.0-rc0"
+cairo-lang-filesystem = "=1.0.0-rc0"
+cairo-lang-sierra = "=1.0.0-rc0"
+cairo-lang-sierra-ap-change = "=1.0.0-rc0"
+cairo-lang-sierra-gas = "=1.0.0-rc0"
+cairo-lang-sierra-to-casm = "=1.0.0-rc0"
+cairo-lang-utils = "=1.0.0-rc0"

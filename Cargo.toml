@@ -7,4 +7,5 @@ description = "A wrapper on cairo-lang-starknet crate set on version 1.0.0-rc0 f
 license = "MIT"
 
 [dependencies]
-cairo-lang-starknet = { version = "=1.0.0-rc0" }
+cairo-lang-syntax = "=1.0.0-rc0"   # fixing a version of cairo-lang-starknet dependency
+cairo-lang-starknet = "=1.0.0-rc0"

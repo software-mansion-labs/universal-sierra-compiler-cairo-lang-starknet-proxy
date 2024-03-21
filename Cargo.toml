@@ -4,6 +4,7 @@ version = "0.2.0"
 edition = "2021"
 readme = "README.md"
 description = "A wrapper on cairo-lang-starknet crate set on version 1.0.0-rc0 for universal-sierra-compiler."
+homepage = "https://github.com/software-mansion-labs/universal-sierra-compiler-cairo-lang-starknet-proxy"
 license = "MIT"
 
 [dependencies]
